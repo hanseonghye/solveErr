@@ -6,7 +6,7 @@ django2.0이후 버전에서, urls파일에서 path를 설정할때 `namespace`�
 path(r'^blog/', include('blog.urls', namespace='blog'))
 ```
 
-`namespace`를 없애자.
+`namespace`를 없애자. 그대신 `name`을 쓰면된당
 
 
 
